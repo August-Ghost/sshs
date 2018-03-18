@@ -13,7 +13,7 @@ Please refer to [How To Route Web Traffic Securely Without a VPN Using a SOCKS T
 for more detail.
 
 ## Environment Variables
-- PORT: The port the proxy server listening to. Default is 3170
+- PORT: The port the proxy server listening to. Default is 3170.
 - SSHUSER: The user to access to your proxy server. Left it blank the server will generate a random user name.
 - PASSWORD: The password you specified for the user. Left it blank the server will generate a random password.
 - RANDOM_PASSWORD_LEN: The length of random-generated password, default is 8.
