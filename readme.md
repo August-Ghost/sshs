@@ -5,7 +5,7 @@ The purpose is to have a simple but powerful way to create a proxy server.
 
 ## Quick Start
 ```bash
-sudo docker run -d --name some-sshs-server -p 3170:3170 -e SSHUSER=user -e PASSWORD=DEADBEEF
+sudo docker run -d --name some-sshs-server -p 3170:3170 -e SSHUSER=user -e PASSWORD=DEADBEEF agailuyhkll/sshs:latest
 ```
 
 Now you can configure your ssh client to establish a tunnel to your ssh proxy server.
